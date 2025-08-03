@@ -1,0 +1,416 @@
+html,body {height:100.1%;}
+body#blank{margin:0;}
+body#blank #wrapper-inner{background-image:none;background:none;}
+body#blank #content{width:528px;padding:0;float:left;margin:0;overflow:hidden;}
+body{margin:0;background:#f7f7f7 !important;padding:0;background-color:#fff;color:#3E3E3E; font-family:Arial, Helvetica, sans-serif;font-size:13px;}
+
+/* Melhorias de acessibilidade */
+*:focus {
+    outline: 2px solid #F60 !important;
+    outline-offset: 2px !important;
+}
+
+/* Melhorar contraste de cores */
+body a{text-decoration:none;font-weight:bold;color:#630;}
+body a:visited{color:#630 !important;}
+body a:hover{color:#F60 !important;}
+
+/* Adicionar transições suaves */
+a, button, input, select, textarea {
+    transition: all 0.3s ease;
+}
+
+/* Melhorar legibilidade */
+p, li, blockquote{line-height:1.6;font-size:14px;}
+body a:hover{color:#F60 !important;}
+#wrapper{text-align:center;background:#f7f7f7;}
+#wrapper-inner{width:800px;margin:15px auto 20px auto;background:#FFF;border:0;padding:0;background-image:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg.gif);text-align:left;}
+#content-wrapper{width:728px;margin-left:36px;padding:0;}
+
+#masthead{position:relative;width:800px;height:124px;margin:0 auto;padding:0;border:0;font-size:13px;font-weight:bold;letter-spacing:1;}
+#masthead .search{ width:264px;left: 555px;top: 28px;position: absolute;}
+#masthead .search #input{margin:0;height:16px;border:1px solid #9e937e}
+#masthead .search #button{margin:0;padding:0;width:55px;vertical-align:top;height:20px;margin-left:2px;color:#9e937e;background:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/btn_buscar.gif);border:none}
+
+#menu-wrapper{ font-size:13px; width:728px;height:auto;margin-left:36px; padding:3px 0 5px 0; background:#9e937e; -moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;outline:none;max-width: 100%;display: block;}
+#menu-wrapper #menu-main{color:#fff;width:688px;text-align:center;letter-spacing:0.02em;overflow:hidden;}
+#menu-wrapper #menu-main a{color:#fff !important;padding:0 5px;text-transform:lowercase}
+#menu-wrapper #menu-main a:hover{color:#F90 !important;}
+
+/* #breadcrumbs{font-size:10px;color:#746543 !important;font-weight:normal;font-family:Verdana, Arial, sans-serif, Helvetica;text-transform:lowercase;padding:5px 0px 5px 10px;height:auto;text-align:center;overflow:hidden;} */
+#breadcrumbs{font-size:10px;color:#746543 !important;font-weight:normal;font-family:Verdana, Arial, sans-serif, Helvetica;text-transform:lowercase;padding:10px 0px 5px 10px;height:auto;text-align:center;overflow:hidden;} 
+#breadcrumbs a{color:#746543 !important;font-weight:bold;}
+
+/* #banner{clear:both;width:728px;margin:0 0 20px 0;text-align:center;} */
+/* #banner{clear:both;width:728px;margin:0 0 10px 0;text-align:center;} */
+/* #banner{width:728px;margin:0 0 20px 0;} */
+#banner{width:728px;margin:0 0 10px 0;} 
+/* #banner{width:728px;margin:8px 0 15px 0;}*/ /* Links */
+#banner img{border:0px;}
+
+#sidebar-left{width:160px;padding:0;float:left;margin:5px 30px 0 10px;overflow:hidden;font-size:11px;line-height:13px;}
+/*#sidebar-left{width:180px;float:left;margin:5px 30px 0 0;overflow:hidden;font-size:11px;line-height:13px;}*/
+#sidebar-right{width:1px;margin:0 0 0 100px;}
+
+/*
+.ad-160x90{ background-color:#f1f1f0; padding:10px; margin:0;}
+.ad-160x600{ border: 1px solid #f1f1f0; padding:0 10px 10px 10px; margin:0;}
+*/
+
+#header .copyright{margin:1em 0px 0px 0px;text-align:right;padding:0px}
+#header img {margin-top:5px}
+
+#content{width:480px;padding:0;float:left;margin:0;overflow:hidden; font-family:Arial,Helvetica,sans-serif; font-size: 14px; line-height: 22px; color:#3E3E3E; }
+#content a{font-weight:normal;text-decoration:underline;}
+#content a:visited{color:#9F9171 !important;}
+#footer{font-size:12px;text-align:center;width:728px;margin:1.2em auto 0.5em auto;padding:0px;}
+#footer .menu-main, #footer .menu-secondary{padding-top:1em;color:#9e937e}
+#footer .menu-main a, #footer .menu-secondary a{font-size:12px;text-decoration:none;padding:0 2px;text-transform:lowercase;}
+
+#credits{color:#999;font-size:12px;margin-bottom:10px;}
+#credits a{color:#999 !important;text-decoration:none;font-weight:normal}
+
+p{text-align:justify;}
+p, li, blockquote{line-height:22px;font-size:14px;}
+hr{height:1px;color:#9e937e;clear:both;margin:1em 0;}
+blockquote{background:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/elm_quote.jpg) 6px 6px no-repeat;margin-left:0px;margin-right:0px;padding-left:60px;}
+sup{padding:0px 2px;margin:0px;font-weight:normal;font-size:10px;text-decoration:none !important;line-height:10px;}
+sup a, a sup{font-weight:normal;color:#666633;text-decoration:none !important;}
+p.justifyleft{text-align:left !important;}
+p.justifyright{text-align:right !important;}
+p.justifyfull{text-align:justify !important;}
+
+h1{font-size:32px;font-weight:100;line-height:38px;color:#938262; }
+h2{font-size:28px;font-weight:400;line-height:34px;color:#867559;}
+h2.subtitle{font-size:26px;font-weight:100;line-height:34px;color:#B5A991; margin-top:-10px}
+h3{font-size:22px;font-weight:400;color:#938262;line-height:28px;margin:0.6em 0;}
+h4{font-size:13px;color:#938262;}
+h5{font-size:13px;color:#938262;margin:0 0 0.6em 0;}
+h6{font-size:8px;color:#938262;margin:0 0 0.8em 0;}
+
+.bg-gold-dk{font-size:13px; letter-spacing:0.05em; font-weight:bold;color:#fff;line-height:1.8em;padding:0 0 0 0.75em;background:#9e937e;margin:1.2em 0 1.2em 0;}
+.bg-gold-lt{font-size:13px; letter-spacing:0.05em; font-weight:bold;color:#663300;line-height:1.8em;padding:0 0 0 0.75em;background:#E6E3D5;margin:1.2em 0 1.2em 0;}
+.bg-grey-lt{font-size:13px; letter-spacing:0.05em; font-weight:bold;color:#663300;line-height:1.8em;padding:0 0 0 0.75em;background:#F1EFEB;margin:1.2em 0 1.2em 0;}
+
+.bodysmall{font-size:11px !important;line-height:15px !important;font-weight:normal !important;color:#3E3E3E;}
+#content .bodysmall{font-size:12px !important;line-height:16px !important;}
+.bodysmall a, .bodysmall a:visited{font-weight:normal;color:#3E3E3E !important;}
+.copyright{font-size:12px !important;line-height:15px !important;font-weight:normal !important;color:#999;}
+.copyright a, .copyright a:visited{font-weight:normal;color:#999 !important;}
+.button{background:repeat-x url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg_btn.gif);}
+.imagecaption{text-align:center;font-size:10px;color:#666666;vertical-align:middle}
+.rule{height:1px;border-top:#9e937e 1px solid;margin:0.5em 0;clear:both}
+
+.menu-plain ul{padding:0;margin:0 0 0 22px;}
+.menu-plain ul li{list-style:none}
+.menu-icons{margin-bottom:0.2em;}
+.menu-icons ul{padding:0;margin:0 0 0 26px;}
+.menu-icons ul li{list-style:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/icon_document.gif);margin:0.8em 0;padding:0 0 0 0px;vertical-align:text-bottom}
+.menu-thumbnails-nowrap img{border:1px solid #9e937e;margin:4px 15px 4px 0;float:left;}
+.menu-thumbnails-nowrap p{margin-left:80px}
+p .menu-thumbnails-nowrap{margin:0px;padding:0px;}
+
+.menu-sitemap ul{padding:0;margin:0 0 0 2em;text-align:left}
+.menu-sitemap ul li{line-height:20px;}
+.menu-sitemap ul li a{text-decoration:none}
+
+.menu-leveltwo{margin-top:-16px;}
+.menu-leveltwo ul{padding:0;margin:0 0 0 0;}
+.menu-leveltwo ul li{line-height:20px;list-style:none;padding-top:16px;}
+.menu-leveltwo a, .menu-leveltwo a:visited{color:#630 !important;}
+.menu-leveltwo ul li ul li{list-style:disc;padding:0;margin:0 0 0 14px;}
+.menu-leveltwo ul li ul li a{text-decoration:none;font-weight:normal !important;}
+
+.icon{margin:0 5px 0 0;float:left;height:16px;width:16px;}
+.debug-mysql{text-align:center;padding-bottom:1em}
+
+#boxout{border:#CAC0A7 1px solid;margin:0.25em 0 1em 0;width:160px;padding:0}
+#boxout-r{float:right;margin:0 0 1em 1em;BORDER:#CAC0A7 1px solid;width:160px;}
+#boxout-l{float:left;margin:0 1em 1em 0;BORDER:#CAC0A7 1px solid;width:160px;}
+#boxout-hdr{font-size:10px;font-weight:bold;color:#FFF;background:#CAC0A7;font-family:Verdana, Arial, sans-serif;text-align:center;line-height:20px;}
+#boxout-content{padding:10px 15px 0px 15px;}
+#boxout-content p{font-size:11px;line-height:15px;}
+#boxout-content a{text-decoration:none;}
+#boxout-content ul{margin-top:0px;margin-bottom:0px}
+#boxout-content li{list-style:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/elm_arrow_mnu.gif);margin:6px 0 6px -20px;font-size:11px;line-height:15px;}
+
+.ds-40x60{background:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg_ds_40x60.gif) no-repeat;float:left;width:50px;height:70px;margin:2px 0 0 0;}
+.ds-40x60 img{border:0;width:40px;height:60px;}
+.ds-60x60{background:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg_ds_40x60.gif) no-repeat;float:left;width:50px;height:70px;margin:2px 0 0 0;}
+.ds-60x60 img{border:0;width:60px;height:60px;}
+.ds-60x90{background:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg_ds_60x90.gif) no-repeat;float:left;width:70px;height:100px;margin:2px 5px 0 0;}
+.ds-60x90 img{border:0;width:60px;height:90px;}
+.ds-90x140{background:url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg_ds_90x140.gif) no-repeat;float:left;width:100px;height:150px;margin:2px 15px 2px 0;}
+.ds-90x140 img{border:0;width:90px;height:140px;}
+
+.fc{border:#CAC0A7 1px solid;padding:5px;float:left;margin:2em 0;font-size:10px;line-height:14px;text-align:center;width:100%;}
+.fcl{border:#CAC0A7 1px solid;padding:5px;float:left;margin:0 2em 1em 0;font-size:10px;line-height:14px;text-align:center;clear:both;}
+.fcr{border:#CAC0A7 1px solid;padding:5px;float:right;margin:0 0 1em 2em;font-size:10px;line-height:14px;text-align:center;clear:both;}
+.fcl p{text-align:center;font-size:10px;color:#666666;vertical-align:middle}
+
+.al-05{float:left;margin:0 5px 2px 0;}
+.al-10{float:left;margin:0 10px 8px 0;}
+.al-15{float:left;margin:0 15px 8px 0;}
+.al-20{float:left;margin:0 20px 8px 0;}
+.al-30{float:left;margin:0 30px 15px 0;}
+.ar-05{float:right;margin:0 0 4px 5px;}
+.ar-10{float:right;margin:0 0 4px 10px;}
+.ar-15{float:right;margin:0 0 4px 15px;}
+.ar-20{float:right;margin:0 0 4px 20px;}
+.ar-30{float:right;margin:0 0 4px 30px;}
+
+table#contact-form{font-size:12px;margin-top:1.5em;}
+table#contact-form .rule{width:100%;border-top:1px solid #ccc;background-image:none;margin:1em 0 1em 0;}
+table#contact-form .label{padding-top:3px}
+
+form#contact-form .text, form#contact-form textarea{border:1px solid #ddd;border-left-color:#c3c3c3;border-top-color:#7c7c7c;padding:0 2px;height:18px;width:95%;line-height:20px;background:#fff url(/web/20180603194909im_/http://www.curadente.com/assets/templates/images/bg_input.gif) repeat-x top left;display:block;}
+form#contact-form textarea{height:auto;display:block;}
+form#contact-form select{width:98%;display:block;}
+form#contact-form .label{vertical-align:top}
+
+div.errors{border:1px solid #F00;color:#F00;padding:5px;}
+
+.search-paging{margin-bottom:1em;line-height:1.8em}
+.search-paging a{padding:0 2px;color:#9e937e}
+.search-highlight{font-weight:bold;}
+
+div, p, p img{margin-top:0px;}
+.clear{height:1px;line-height:1px;clear:both;font:1px;}
+.unpublished{color:#aaa !important;font-style:italic;}
+.unpublished a{color:#aaa !important;}
+.entry, h1.entry, #content h1{margin-top:0;padding-top:0;}
+.debug{text-align:center;padding:2px;font-size:10px}
+
+/* CCB */
+
+#ccb { background: #867559 !important; }
+#ccb .ccb-button { background: #867559 !important; }
+#ccb .ccb-button:hover {	background: #B5A991 !important; }
+
+#ccb {
+height: auto;
+margin-top: 0px;
+background: repeat scroll 0% 0%;
+font-family: arial, sans-serif;
+font-size: 13px;
+}
+
+#ccb a:hover, #ccb a:focus {
+text-decoration: underline;
+}
+
+#ccb .ccb-icon {
+display: table-cell;
+vertical-align: middle;
+padding: 0px 5px 0px 10px;
+}
+
+#ccb .ccb-icon-content {
+/*display: table-cell;
+background:url(/web/20180603194909im_/http://www.curadente.com/assets/scripts/ccb/ico-gear.png) no-repeat;
+width:18px;
+height:18px;
+padding: 0px 10px;
+*/
+}
+
+#ccb .ccb-content {
+word-break: normal;
+font-size: 0px;
+color: #FFF;
+font-weight: 500;
+line-height: 1.2;
+padding: 6px 6px 6px 0px;
+overflow: hidden;
+display: table-cell;
+width: 100%;
+word-break: normal;
+}
+
+#ccb .ccb-content a, #ccb .ccb-content a:hover {
+color: #FFF !important;
+text-decoration: underline;
+}
+
+#ccb .ccb-message {
+font-size: 13px;
+vertical-align: middle;
+display: inline-block;
+}
+
+#ccb .ccb-buttons {
+color: #FFF;
+font-size: 13px;
+display: table-cell;
+vertical-align: middle;
+overflow: hidden;
+white-space: nowrap;
+padding: 0px 10px;
+}
+
+#ccb .ccb-button {
+outline: 0px none;
+background: repeat scroll 0% 0%;
+color: #FFF;
+display: inline-block;
+height: 20px;
+border: 1px solid #FFF;
+padding: 0px 8px;
+text-decoration: none;
+white-space: nowrap;
+word-wrap: normal;
+line-height: normal;
+vertical-align: middle;
+cursor: pointer;
+border-radius: 2px;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+font-family: arial, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+#ccb .ccb-button:hover {
+background: repeat scroll 0% 0%;
+}
+
+/*
+     FILE ARCHIVED ON 19:49:09 Jun 03, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:08:44 Jul 26, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.501
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 112.122
+  LoadShardBlock: 165.67 (3)
+  PetaboxLoader3.datanode: 196.539 (4)
+  PetaboxLoader3.resolve: 172.976 (2)
+  load_resource: 234.749
+*/
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 768px) {
+    #wrapper-inner {
+        width: 95% !important;
+        margin: 10px auto !important;
+    }
+    
+    #masthead {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    #masthead img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    #masthead .search {
+        position: relative !important;
+        width: 90% !important;
+        left: 5% !important;
+        top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    #menu-wrapper {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    
+    #content-wrapper {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    
+    #sidebar-left {
+        width: 100% !important;
+        float: none !important;
+        margin: 10px 0 !important;
+    }
+    
+    #content {
+        width: 100% !important;
+        float: none !important;
+    }
+    
+    #banner {
+        width: 100% !important;
+    }
+    
+    .menu-thumbnails-nowrap img {
+        width: 80px !important;
+        height: auto !important;
+    }
+    
+    .menu-thumbnails-nowrap p {
+        margin-left: 90px !important;
+    }
+    
+    h1 {
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+    
+    h2 {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    
+    h2.subtitle {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+}
+
+/* Melhorar acessibilidade para leitores de tela */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Melhorar contraste para melhor legibilidade */
+#content {
+    color: #2c2c2c !important;
+}
+
+/* Adicionar suporte para impressão */
+@media print {
+    #menu-wrapper, #sidebar-left, .search, #masthead .search {
+        display: none !important;
+    }
+    
+    #content {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    body {
+        font-size: 12pt !important;
+        line-height: 1.4 !important;
+        color: #000 !important;
+    }
+    
+    a {
+        color: #000 !important;
+        text-decoration: underline !important;
+    }
+    
+    h1, h2, h3 {
+        page-break-after: avoid !important;
+    }
+}
