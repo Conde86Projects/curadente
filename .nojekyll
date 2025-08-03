@@ -1,0 +1,2 @@
+# Este arquivo indica ao GitHub Pages para não processar o site com Jekyll
+# Isso permite que arquivos estáticos como sitemap.xml sejam servidos corretamente 
