@@ -13,11 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://conde86projects.github.io/curadente/index.html</loc>
-  <lastmod>2025-08-03T04:42:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://conde86projects.github.io/curadente/natural.html</loc>
   <lastmod>2025-08-03T04:42:29+00:00</lastmod>
   <priority>0.80</priority>
@@ -167,6 +162,7 @@
   <lastmod>2025-08-03T04:42:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 
 
 </urlset>
