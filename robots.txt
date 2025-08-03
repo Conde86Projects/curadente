@@ -1,8 +1,3 @@
 User-agent: *
 Allow: /
-
-# Sitemap
 Sitemap: https://conde86projects.github.io/curadente/sitemap.xml
-
-# Crawl-delay para ser respeitoso com o servidor
-Crawl-delay: 1 
