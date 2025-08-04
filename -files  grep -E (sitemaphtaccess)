@@ -1,5 +1,0 @@
-[33made8854[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Corrigido tipo MIME do sitemap e adicionado .htaccess para forçar application/xml
-[33m9bd9709[m atualização sitemap
-[33m41cd9b4[m Adicionado arquivo sitemap (sem extensão) para compatibilidade com Google Search Console
-[33m5c29ac8[m Atualizado sitemap.xml com formato XML Schema e todas as páginas do site
-[33m4b188b9[m Correções SEO: robots.txt adicionado, breadcrumbs implementados no index.html
